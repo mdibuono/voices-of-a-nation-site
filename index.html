@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Voices of a Nation: il corpus parlamentare italiano 1900–1941. Testi, serie annuali, metadati e fonti documentate.">
+<title>Voices of a Nation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;450;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/reading-room.css"><link rel="stylesheet" href="assets/current-site.css">
+</head>
+<body>
+<a class="skip" href="#reading" data-i18n="skip">Vai alla sala di lettura</a>
+<div class="page">
+<header>
+<div class="utility meta"><span data-i18n="institutionPeriod">Parlamento italiano / 1900—1941</span><div class="utility-actions"><div class="language-switch" role="group" data-i18n-aria="siteLanguage" aria-label="Lingua del sito"><button id="lang-it" type="button" data-language="it" lang="it" aria-label="Italiano" aria-pressed="true">IT</button><button id="lang-en" type="button" data-language="en" lang="en" aria-label="English" aria-pressed="false">EN</button></div></div></div>
+<h1 class="masthead">VOICES <span>OF A</span> NATION</h1>
+<div class="navigation"><p data-i18n="tagline">Un archivio di ricerca sui testi parlamentari.</p><nav data-i18n-aria="mainNav" aria-label="Navigazione principale"><a class="active" href="#reading" data-i18n="readingRoom">Sala di lettura</a><a href="#numbers" data-i18n="annualSeries">Serie annuali</a><a href="#source" data-i18n="sourceNotes">Fonti e metodo</a></nav></div>
+<div class="release-strip"><div><span class="release-tag" id="release-version">Il corpus</span><p id="release-period">16 giugno 1900 — 10 giugno 1941</p><p data-i18n="legislaturesRange">Legislature XXI—XXX</p></div><div class="metric"><strong id="total-records">510.605</strong><p data-i18n="recordsTotal">record testuali</p></div><div class="metric"><strong id="total-sittings">3.239</strong><p data-i18n="sittingsTotal">sedute numerate</p></div><div class="metric"><strong id="total-people">2.357</strong><p data-i18n="peopleTotal">identità nel registro delle persone</p></div></div>
+<p class="release-context" data-i18n="releaseContext">Esplora i testi parlamentari attraverso temi, serie annuali e fonti originali.</p>
+</header>
+<main>
+<noscript><p class="loading-error">Attiva JavaScript per esplorare il corpus. Enable JavaScript to explore the corpus.</p></noscript>
+<section id="reading" aria-labelledby="reading-heading"><div class="room-toolbar"><h2 class="section-title" id="reading-heading"><span>01</span><b data-i18n="theReadingRoom" style="font-weight:inherit">La sala di lettura</b></h2><label class="search"><span class="sr-only" data-i18n="searchLabel">Cerca negli estratti in italiano e in inglese</span><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="5.5" stroke="currentColor" stroke-width="1.5"/><path d="m12 12 5 5" stroke="currentColor" stroke-width="1.5"/></svg><input id="query" type="search" data-i18n-placeholder="searchPlaceholder" placeholder="Cerca negli estratti · IT / EN" autocomplete="off"><button class="clear-search" id="clear-query" type="button" data-i18n-aria="clearSearch" aria-label="Cancella la ricerca" hidden>×</button></label></div>
+<div class="reading-grid"><aside class="subject-index" data-i18n-aria="topics" aria-label="Temi"><p class="column-label" data-i18n="subjectIndex">Indice dei temi</p><div id="topics" style="display:contents"></div><p class="sample-limit" id="sample-limit"></p></aside><div class="record-column"><div class="record-heading"><p class="column-label" id="list-label">Estratti</p><output id="count" aria-live="polite">—</output></div><div class="record-list" id="records" data-i18n-aria="selectExcerpt" aria-label="Seleziona un estratto"></div></div><article class="reader" id="reader" aria-live="polite"></article></div>
+</section>
+<section class="volume" id="numbers" aria-labelledby="volume-heading"><div class="volume-heading"><h2 class="section-title" id="volume-heading"><span>02</span><b data-i18n="corpusYearByYear" style="font-weight:inherit">Il corpus, anno per anno</b></h2><p><span data-i18n="selectYear">Seleziona un anno.</span><br><span data-i18n="yearFilterNote">Gli estratti sopra restano invariati.</span></p></div><div class="annual-summary" aria-live="polite"><strong id="series-year">—</strong><span><span class="value" id="series-count">—</span> <span data-i18n="speechRecords">record</span></span><span class="annual-topic"><b id="series-share">—</b><span id="series-topic"></span><span data-i18n="keywordMatches">· corrispondenze lessicali</span></span></div><div class="chart-scroll" id="chart-scroll"><div class="year-chart" id="year-chart" role="group" data-i18n-aria="annualChart" aria-label="Record per anno"></div></div><p class="chart-note" data-i18n="chartNote"></p><details class="keyword-detail"><summary data-i18n="dictionaryTitle">Parole cercate per questo tema</summary><p id="topic-dictionary" lang="it"></p><p id="topic-count-note"></p></details></section>
+<section class="source" id="source" aria-labelledby="source-heading"><h2 id="source-heading"><span data-i18n="sourceSection">04 / Fonti</span><b data-i18n="backToPage" style="font-weight:inherit">Dal record alla pagina.</b></h2><div class="source-copy"><p data-i18n="sourceIntro"></p><div class="source-facts"></div>
+<details><summary data-i18n="coverageQuestion"></summary><p data-i18n="coverageAnswer"></p></details>
+<details><summary data-i18n="topicsQuestion"></summary><p data-i18n="topicsAnswer"></p></details>
+<details><summary data-i18n="excerptQuestion"></summary><p data-i18n="excerptAnswer"></p></details>
+<details><summary data-i18n="qualityQuestion"></summary><p data-i18n="qualityAnswer"></p></details>
+<details><summary data-i18n="translationQuestion"></summary><p data-i18n="translationAnswer"></p></details>
+<details><summary data-i18n="reproductionQuestion"></summary><p data-i18n="reproductionAnswer"></p></details>
+</div></section>
+</main>
+<footer class="site-footer"><span><span data-i18n="footerTitle">Voices of a Nation · Archivio parlamentare</span><br><span id="footer-updated"></span></span><a href="#reading" data-i18n="backToReading">Torna alla sala di lettura ↑</a></footer>
+</div>
+<script src="assets/current-release-data.js"></script>
+<script src="assets/current-translations-en.js"></script>
+<script src="assets/current-url-checks.js"></script>
+<script src="assets/current-site.js"></script>
+</body>
+</html>
